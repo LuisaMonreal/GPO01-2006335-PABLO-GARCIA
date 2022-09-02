@@ -29,13 +29,13 @@ int main()
         cout << "ingresa el nombre del videojuego\n";
         cin.ignore();
         getline(cin, nom);
-        cout << "ingresa el Año de lanzamiento\n";
+        cout << "ingresa el AÃ±o de lanzamiento\n";
         cin >> a;
         cout << "ingresa la clasificacion\n";
         cin.ignore();
         getline(cin, clas);
         cout << "ingresa las caracteristicas\n";
-        getline(cin, carac);
+        getline(cin, carac); //revision del cin.ignore
         cout << "ingresa la descripcion\n";
         getline(cin, desc);
         cout << "ingresa el genero\n";
